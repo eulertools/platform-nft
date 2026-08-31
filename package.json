@@ -1,0 +1,42 @@
+{
+  "name": "platform-nft",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "aws-cdk": "2.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.6.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apprunner-alpha": "^2.30.0-alpha.0",
+    "@opensearch-project/opensearch": "^2.0.0",
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "@types/lodash": "^4.14.182",
+    "aws-cdk-lib": "2.30.0",
+    "aws-sdk": "^2.1150.0",
+    "constructs": "^10.0.0",
+    "dotenv": "^16.0.1",
+    "ethereumjs-wallet": "^1.0.2",
+    "install": "^0.13.0",
+    "npm": "^8.19.2",
+    "source-map-support": "^0.5.16",
+    "web3": "^1.5.2",
+    "web3-core-helpers": "^1.7.1",
+    "web3-eth-abi": "^1.8.0",
+    "web3-utils": "^1.7.1"
+  }
+}

@@ -1,0 +1,19 @@
+export const erc1155 = [{
+  "inputs": [
+    {
+      "internalType": "uint256",
+      "name": "_id",
+      "type": "uint256"
+    }
+  ],
+  "name": "uri",
+  "outputs": [
+    {
+      "internalType": "string",
+      "name": "",
+      "type": "string"
+    }
+  ],
+  "stateMutability": "view",
+  "type": "function"
+}]
